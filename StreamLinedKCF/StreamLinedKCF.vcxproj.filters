@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\cn">
+      <UniqueIdentifier>{91ea394f-2dcd-49f4-9de6-2365a6af5076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\piotr_fhog">
+      <UniqueIdentifier>{d6c29442-3578-44f2-b894-ab6c1ea0eb10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\cn">
+      <UniqueIdentifier>{c488897f-45b1-4c9b-aead-f41a92da6b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\piotr_fhog">
+      <UniqueIdentifier>{745233fe-bd0f-46a9-8dc6-2e382673478b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\trax">
+      <UniqueIdentifier>{95e63c42-7a5f-49ac-aa81-873089fb8bba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\trax">
+      <UniqueIdentifier>{c47d516f-778f-4767-baac-ae2c7903fc0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\trax\trax">
+      <UniqueIdentifier>{58bbef51-83d2-4ac1-aee5-1ea6651bd005}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="complexmat.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="kcf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cn\cnfeat.hpp">
+      <Filter>头文件\cn</Filter>
+    </ClInclude>
+    <ClInclude Include="piotr_fhog\fhog.hpp">
+      <Filter>头文件\piotr_fhog</Filter>
+    </ClInclude>
+    <ClInclude Include="piotr_fhog\gradientMex.h">
+      <Filter>头文件\piotr_fhog</Filter>
+    </ClInclude>
+    <ClInclude Include="piotr_fhog\sse.hpp">
+      <Filter>头文件\piotr_fhog</Filter>
+    </ClInclude>
+    <ClInclude Include="piotr_fhog\wrappers.hpp">
+      <Filter>头文件\piotr_fhog</Filter>
+    </ClInclude>
+    <ClInclude Include="vot.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vot_trax.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="trax\trax.h">
+      <Filter>头文件\trax</Filter>
+    </ClInclude>
+    <ClInclude Include="trax\trax\opencv.hpp">
+      <Filter>头文件\trax\trax</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="kcf.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cn\cn_data.cpp">
+      <Filter>源文件\cn</Filter>
+    </ClCompile>
+    <ClCompile Include="piotr_fhog\gradientMex.cpp">
+      <Filter>源文件\piotr_fhog</Filter>
+    </ClCompile>
+    <ClCompile Include="trax\opencv.cpp">
+      <Filter>源文件\trax</Filter>
+    </ClCompile>
+    <ClCompile Include="main_vot.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

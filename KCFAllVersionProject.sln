@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiScaleKCF", "MultiScaleKCF\MultiScaleKCF.vcxproj", "{F2B6A08F-473A-4616-A3A9-B6224F3F524A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FoolWoodKCF", "FoolWoodKCF\FoolWoodKCF.vcxproj", "{3CDEDB3D-CB1F-47E4-B8D4-2A7C37D776FD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StreamLinedKCF", "StreamLinedKCF\StreamLinedKCF.vcxproj", "{C23802DA-0B79-43A8-9B47-CD5847D576D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2B6A08F-473A-4616-A3A9-B6224F3F524A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F2B6A08F-473A-4616-A3A9-B6224F3F524A}.Debug|Win32.Build.0 = Debug|Win32
+		{F2B6A08F-473A-4616-A3A9-B6224F3F524A}.Release|Win32.ActiveCfg = Release|Win32
+		{F2B6A08F-473A-4616-A3A9-B6224F3F524A}.Release|Win32.Build.0 = Release|Win32
+		{3CDEDB3D-CB1F-47E4-B8D4-2A7C37D776FD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3CDEDB3D-CB1F-47E4-B8D4-2A7C37D776FD}.Debug|Win32.Build.0 = Debug|Win32
+		{3CDEDB3D-CB1F-47E4-B8D4-2A7C37D776FD}.Release|Win32.ActiveCfg = Release|Win32
+		{3CDEDB3D-CB1F-47E4-B8D4-2A7C37D776FD}.Release|Win32.Build.0 = Release|Win32
+		{C23802DA-0B79-43A8-9B47-CD5847D576D1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C23802DA-0B79-43A8-9B47-CD5847D576D1}.Debug|Win32.Build.0 = Debug|Win32
+		{C23802DA-0B79-43A8-9B47-CD5847D576D1}.Release|Win32.ActiveCfg = Release|Win32
+		{C23802DA-0B79-43A8-9B47-CD5847D576D1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
